@@ -1,0 +1,18 @@
+\begin{table}[t]
+\caption{Entropy-coefficient dose--response (light protocol, 15 cycles, 3 paired seeds, mean$\pm$sd over seeds; steady state = cycles 11--15). Every other knob and the protocol are held fixed, so the coefficient is the only thing that varies. Coverage retention is reported on three support sets because distinct-3 is measured on the domain currently being trained: \emph{all} seen domains (the axis-3 definition), the \emph{current} domain alone (matched support), and the \emph{past} domains alone. $\rho$ = Spearman over the five dose levels of the condition means; the hypotheses and thresholds were registered before these runs.}
+\label{tab:dose}
+\centering
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+$\beta_{\mathrm{ent}}$ & distinct-3 & gen.\ entropy & Cov.\ ret.\ (all) & (current) & (past) \\
+\midrule
+0.00 & 0.736$\pm$0.012 & 2.44 & 0.943 & 0.965 & 0.931 \\
+0.01 & 0.755$\pm$0.015 & 2.30 & 0.934 & 0.938 & 0.932 \\
+0.02 & 0.778$\pm$0.016 & 2.43 & 0.936 & 0.962 & 0.923 \\
+0.04 & 0.831$\pm$0.015 & 2.33 & 0.908 & 0.928 & 0.898 \\
+0.08 & 0.811$\pm$0.065 & 2.35 & 0.862 & 0.888 & 0.850 \\
+\midrule
+$\rho$ (dose) & +0.90 & -0.30 & -0.90 & -0.90 & -0.90 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\caption{Continual-story runs (30 cycles, GSM8K$\to$Code$\to$MedicalMC, full protocol, train-split rehearsal harvest). Steady state = cycles 21--30. Cov.\ ret.\ = retained fraction of the frozen base's solved set. $R_f/R_{ii}$ = final over block-end accuracy (relative retention). Seed 0 per condition; Table~\ref{tab:seeds} lists the three-seed replication and Table~\ref{tab:harvest} the harvest-source ablation.}
+\label{tab:main}
+\centering\footnotesize
+\begin{tabular}{@{}lccccccccc@{}}
+\toprule
+Method & Avg.\ final & GSM8K & Code & MedMC & BWT & $R_f/R_{ii}$ G/C & distinct-3 & entropy & Cov.\ ret. \\
+\midrule
+MAPC (learned multi-axis) & \textbf{0.443} & 0.703 & 0.346 & 0.281 & 0.037 & 1.19/1.02 & 0.734 & 2.38 & 0.939 \\
+Fixed mid-point GRPO & {0.422} & 0.598 & 0.345 & 0.325 & 0.051 & 1.18/0.99 & 0.820 & 2.36 & 0.938 \\
+STaR/SFT self-distillation & {0.352} & 0.485 & 0.320 & 0.250 & -0.009 & 0.97/1.02 & 0.313 & 1.48 & 0.922 \\
+MAPC, rehearsal ablated & {0.417} & 0.521 & 0.389 & 0.340 & -0.012 & 1.02/1.06 & 0.683 & 2.38 & 0.924 \\
+\bottomrule
+\end{tabular}
+\end{table*}

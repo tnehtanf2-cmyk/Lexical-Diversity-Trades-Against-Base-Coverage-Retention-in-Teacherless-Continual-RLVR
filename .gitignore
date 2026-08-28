@@ -1,0 +1,22 @@
+# Model checkpoints and training artifacts — never commit
+output/
+wandb/
+*.pt
+*.bin
+*.safetensors
+checkpoint-*/
+
+# Reference literature (third-party copyright) — never commit
+참고논문/
+논문노트/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local scratch
+scratch/
+*.tmp

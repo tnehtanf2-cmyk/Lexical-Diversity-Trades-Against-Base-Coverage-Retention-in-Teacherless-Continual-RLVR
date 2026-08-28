@@ -1,0 +1,13 @@
+[2026-08-05 07:49:19] v2j seed1 chain start
+[2026-08-05 07:49:19] START v2j_nsiac_s1
+5e6263a3dedfd537846906b4fe000e4b362180810e44d687e54dab4f96004718
+✅ [nsiac-v2j-nsiac-s1] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2j-nsiac-s1
+   결과:   logs/v2j_nsiac_s1.csv   |   Q&A: logs/v2j_nsiac_s1_samples.jsonl
+137
+[2026-08-05 08:02:58] DONE  v2j_nsiac_s1
+[2026-08-05 08:02:58] START v2j_fixedmid_s1
+47fee06f03bfa9c08607cf282c39e248d52a48e9ca416f3a20a59ba5bf07a4b1
+✅ [nsiac-v2j-fixedmid-s1] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2j-fixedmid-s1
+   결과:   logs/v2j_fixedmid_s1.csv   |   Q&A: logs/v2j_fixedmid_s1_samples.jsonl

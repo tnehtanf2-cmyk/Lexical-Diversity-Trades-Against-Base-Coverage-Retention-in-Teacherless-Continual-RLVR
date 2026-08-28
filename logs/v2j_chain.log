@@ -1,0 +1,53 @@
+[2026-08-03 06:51:12] v2j chain start
+[2026-08-03 06:51:12] START v2j_nsiac
+nsiac-v2j-nsiac
+nsiac-v2j-nsiac
+3ebb21e99b38f06761ad4551460c14ba1ac395d55c5cef526b9a433ef2c04742
+✅ [nsiac-v2j-nsiac] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2j-nsiac
+   결과:   logs/v2j_nsiac.csv   |   Q&A: logs/v2j_nsiac_samples.jsonl
+[2026-08-03 06:51:24] DONE  v2j_nsiac (exit 0)
+[2026-08-03 06:51:24] START v2j_fixedmid
+a7dbf6d4ad14ed55205e1a62f3b40b1a3d4d51df9dab3ceb2314634d781bb31a
+✅ [nsiac-v2j-fixedmid] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2j-fixedmid
+   결과:   logs/v2j_fixedmid.csv   |   Q&A: logs/v2j_fixedmid_samples.jsonl
+[2026-08-03 06:51:24] DONE  v2j_fixedmid (exit 0)
+[2026-08-03 06:51:24] START v2j_noreh
+e3267af574b2af738a7a805582285944dcbac8418e96840d0f18bdaaafdf9104
+✅ [nsiac-v2j-noreh] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2j-noreh
+   결과:   logs/v2j_noreh.csv   |   Q&A: logs/v2j_noreh_samples.jsonl
+[2026-08-03 06:51:25] DONE  v2j_noreh (exit 0)
+[2026-08-03 06:51:25] START v2j_sftstar
+b407a838d0e6b77a2176d476b5bdd48d147a49c7d47789d4c6b9c2991d06e7db
+✅ [nsiac-v2j-sftstar] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2j-sftstar
+   결과:   logs/v2j_sftstar.csv   |   Q&A: logs/v2j_sftstar_samples.jsonl
+[2026-08-03 06:51:25] DONE  v2j_sftstar (exit 0)
+[2026-08-03 06:51:25] v2j chain complete
+[2026-08-03 06:52:47] v2j chain start
+[2026-08-03 06:52:47] WAIT v2j_nsiac (already running)
+0
+[2026-08-03 15:09:52] DONE  v2j_nsiac
+[2026-08-03 15:09:52] START v2j_fixedmid
+3d8c731012cf4e67812ad7242df127c199121ce58ae6f58fc46d222e3a36c7cf
+✅ [nsiac-v2j-fixedmid] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2j-fixedmid
+   결과:   logs/v2j_fixedmid.csv   |   Q&A: logs/v2j_fixedmid_samples.jsonl
+137
+[2026-08-03 15:13:06] DONE  v2j_fixedmid
+[2026-08-03 15:13:06] START v2j_noreh
+9226ef20f5c3a1efd8ae0bc376295babb0fb637bed9c93bd4201cb359bdf42a4
+✅ [nsiac-v2j-noreh] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2j-noreh
+   결과:   logs/v2j_noreh.csv   |   Q&A: logs/v2j_noreh_samples.jsonl
+137
+[2026-08-04 06:18:21] DONE  v2j_noreh
+[2026-08-04 06:18:21] START v2j_sftstar
+3f992c91f28100597a6c3ca350cd42b98af4639d99c84769a93baedfad9a8c1a
+✅ [nsiac-v2j-sftstar] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2j-sftstar
+   결과:   logs/v2j_sftstar.csv   |   Q&A: logs/v2j_sftstar_samples.jsonl
+0
+[2026-08-04 20:10:37] DONE  v2j_sftstar

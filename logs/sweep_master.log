@@ -1,0 +1,39 @@
+▶ [base envelope] 동결 베이스 pass@k 포락선 측정 (6 eval-only cycles)
+  ✓ base 포락선 완료
+▶ [nsiac-sweep-nsiac-s0] seed=0  knobs=learned
+  ✓ [nsiac-sweep-nsiac-s0] 완료 → logs/sweep_nsiac_s0.csv
+▶ [nsiac-sweep-ent_lo-s0] seed=0  knobs=entropy_coef=0.0,kl_beta=0.04
+  ✓ [nsiac-sweep-ent_lo-s0] 완료 → logs/sweep_ent_lo_s0.csv
+▶ [nsiac-sweep-ent_hi-s0] seed=0  knobs=entropy_coef=0.04,kl_beta=0.04
+  ✓ [nsiac-sweep-ent_hi-s0] 완료 → logs/sweep_ent_hi_s0.csv
+▶ [nsiac-sweep-kl_lo-s0] seed=0  knobs=entropy_coef=0.01,kl_beta=0.02
+  ✓ [nsiac-sweep-kl_lo-s0] 완료 → logs/sweep_kl_lo_s0.csv
+▶ [nsiac-sweep-kl_hi-s0] seed=0  knobs=entropy_coef=0.01,kl_beta=0.10
+  ✓ [nsiac-sweep-kl_hi-s0] 완료 → logs/sweep_kl_hi_s0.csv
+▶ [nsiac-sweep-fixed_mid-s0] seed=0  knobs=entropy_coef=0.01,kl_beta=0.04
+  ✓ [nsiac-sweep-fixed_mid-s0] 완료 → logs/sweep_fixed_mid_s0.csv
+▶ [nsiac-sweep-nsiac-s1] seed=1  knobs=learned
+  ✓ [nsiac-sweep-nsiac-s1] 완료 → logs/sweep_nsiac_s1.csv
+▶ [nsiac-sweep-ent_lo-s1] seed=1  knobs=entropy_coef=0.0,kl_beta=0.04
+  ✓ [nsiac-sweep-ent_lo-s1] 완료 → logs/sweep_ent_lo_s1.csv
+▶ [nsiac-sweep-ent_hi-s1] seed=1  knobs=entropy_coef=0.04,kl_beta=0.04
+  ✓ [nsiac-sweep-ent_hi-s1] 완료 → logs/sweep_ent_hi_s1.csv
+▶ [nsiac-sweep-kl_lo-s1] seed=1  knobs=entropy_coef=0.01,kl_beta=0.02
+  ✓ [nsiac-sweep-kl_lo-s1] 완료 → logs/sweep_kl_lo_s1.csv
+▶ [nsiac-sweep-kl_hi-s1] seed=1  knobs=entropy_coef=0.01,kl_beta=0.10
+  ✓ [nsiac-sweep-kl_hi-s1] 완료 → logs/sweep_kl_hi_s1.csv
+▶ [nsiac-sweep-fixed_mid-s1] seed=1  knobs=entropy_coef=0.01,kl_beta=0.04
+  ✓ [nsiac-sweep-fixed_mid-s1] 완료 → logs/sweep_fixed_mid_s1.csv
+▶ [nsiac-sweep-nsiac-s2] seed=2  knobs=learned
+  ✓ [nsiac-sweep-nsiac-s2] 완료 → logs/sweep_nsiac_s2.csv
+▶ [nsiac-sweep-ent_lo-s2] seed=2  knobs=entropy_coef=0.0,kl_beta=0.04
+  ✓ [nsiac-sweep-ent_lo-s2] 완료 → logs/sweep_ent_lo_s2.csv
+▶ [nsiac-sweep-ent_hi-s2] seed=2  knobs=entropy_coef=0.04,kl_beta=0.04
+  ✓ [nsiac-sweep-ent_hi-s2] 완료 → logs/sweep_ent_hi_s2.csv
+▶ [nsiac-sweep-kl_lo-s2] seed=2  knobs=entropy_coef=0.01,kl_beta=0.02
+  ✓ [nsiac-sweep-kl_lo-s2] 완료 → logs/sweep_kl_lo_s2.csv
+▶ [nsiac-sweep-kl_hi-s2] seed=2  knobs=entropy_coef=0.01,kl_beta=0.10
+  ✓ [nsiac-sweep-kl_hi-s2] 완료 → logs/sweep_kl_hi_s2.csv
+▶ [nsiac-sweep-fixed_mid-s2] seed=2  knobs=entropy_coef=0.01,kl_beta=0.04
+  ✓ [nsiac-sweep-fixed_mid-s2] 완료 → logs/sweep_fixed_mid_s2.csv
+✅ 스윕 완료. Pareto 분석: python paper/make_results.py (Pareto 플롯 포함)

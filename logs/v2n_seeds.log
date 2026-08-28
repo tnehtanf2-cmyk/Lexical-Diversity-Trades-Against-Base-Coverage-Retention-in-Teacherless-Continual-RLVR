@@ -1,0 +1,102 @@
+[2026-08-13 19:51:54] v2n multi-seed chain start (14 runs)
+[2026-08-13 19:51:54] START v2n_nsiac_s1
+61c41bad42adf59bb3516c2a205838e7a79f073c8f066e063ce1c272a61c388c
+✅ [nsiac-v2n-nsiac-s1] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2n-nsiac-s1
+   결과:   logs/v2n_nsiac_s1.csv   |   Q&A: logs/v2n_nsiac_s1_samples.jsonl
+0
+[2026-08-14 04:26:27] DONE  v2n_nsiac_s1
+[2026-08-14 04:26:27] START v2n_fixedmid_s1
+74dc465f59d3642340cb50d9f924ba50706c0199e8ceb5a74554fa629c7ff4cf
+✅ [nsiac-v2n-fixedmid-s1] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2n-fixedmid-s1
+   결과:   logs/v2n_fixedmid_s1.csv   |   Q&A: logs/v2n_fixedmid_s1_samples.jsonl
+0
+[2026-08-14 11:12:53] DONE  v2n_fixedmid_s1
+[2026-08-14 11:12:53] START v2n_sftstar_s1
+12a1693648b5a0b8db6680ca6dbb3825cf61601c08aaa7853ab3260904384d49
+✅ [nsiac-v2n-sftstar-s1] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2n-sftstar-s1
+   결과:   logs/v2n_sftstar_s1.csv   |   Q&A: logs/v2n_sftstar_s1_samples.jsonl
+0
+[2026-08-14 17:45:41] DONE  v2n_sftstar_s1
+[2026-08-14 17:45:41] START v2n_noreh_s1
+a1cefbd6d3da162b434b3261d7ce73d3f8e7da05fc92ae525be878d419ebf2a9
+✅ [nsiac-v2n-noreh-s1] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2n-noreh-s1
+   결과:   logs/v2n_noreh_s1.csv   |   Q&A: logs/v2n_noreh_s1_samples.jsonl
+0
+[2026-08-15 02:43:21] DONE  v2n_noreh_s1
+[2026-08-15 02:43:21] START v2n_nsiac_s2
+fc7b333ddb1a0208c4efd58ad84c43d699864e3fcd8023f2432721a118e37489
+✅ [nsiac-v2n-nsiac-s2] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2n-nsiac-s2
+   결과:   logs/v2n_nsiac_s2.csv   |   Q&A: logs/v2n_nsiac_s2_samples.jsonl
+0
+[2026-08-15 11:17:02] DONE  v2n_nsiac_s2
+[2026-08-15 11:17:02] START v2n_fixedmid_s2
+d2b9a4dca3c9e806d03c354c5ce3d7917e9a11b0d57629cf9cc2ce11abe77940
+✅ [nsiac-v2n-fixedmid-s2] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2n-fixedmid-s2
+   결과:   logs/v2n_fixedmid_s2.csv   |   Q&A: logs/v2n_fixedmid_s2_samples.jsonl
+0
+[2026-08-15 18:01:26] DONE  v2n_fixedmid_s2
+[2026-08-15 18:01:26] START v2n_sftstar_s2
+313ea4cc42bfb3d0f75337e5985719b769e75917b8bbd66389bdacd2f43f27e7
+✅ [nsiac-v2n-sftstar-s2] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2n-sftstar-s2
+   결과:   logs/v2n_sftstar_s2.csv   |   Q&A: logs/v2n_sftstar_s2_samples.jsonl
+0
+[2026-08-16 00:18:57] DONE  v2n_sftstar_s2
+[2026-08-16 00:18:57] START v2n_noreh_s2
+21489877f06a1fd8439d954789859418a0ec8c58618656163b1c13228cae3d08
+✅ [nsiac-v2n-noreh-s2] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2n-noreh-s2
+   결과:   logs/v2n_noreh_s2.csv   |   Q&A: logs/v2n_noreh_s2_samples.jsonl
+0
+[2026-08-16 09:07:38] DONE  v2n_noreh_s2
+[2026-08-16 09:07:38] stage1 (1.5B x8) complete
+[2026-08-16 09:07:38] START v2n_3b_nsiac_s1
+d6972ea1721278ada57a8d23752812b467ce60123da6b701a15ae1c8eaef6f26
+✅ [nsiac-v2n-3b-nsiac-s1] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2n-3b-nsiac-s1
+   결과:   logs/v2n_3b_nsiac_s1.csv   |   Q&A: logs/v2n_3b_nsiac_s1_samples.jsonl
+0
+[2026-08-16 21:33:53] DONE  v2n_3b_nsiac_s1
+[2026-08-16 21:33:53] START v2n_3b_fixedmid_s1
+2481026e0f83f985c94e6f6796b95a6721933d7c1aa989668303cb5a113ba552
+✅ [nsiac-v2n-3b-fixedmid-s1] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2n-3b-fixedmid-s1
+   결과:   logs/v2n_3b_fixedmid_s1.csv   |   Q&A: logs/v2n_3b_fixedmid_s1_samples.jsonl
+0
+[2026-08-17 08:21:42] DONE  v2n_3b_fixedmid_s1
+[2026-08-17 08:21:42] START v2n_3b_nsiac_s2
+8f8411830113e28181ee621b90d059e9851cde3fa78cc73c5e237f373f582ce5
+✅ [nsiac-v2n-3b-nsiac-s2] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2n-3b-nsiac-s2
+   결과:   logs/v2n_3b_nsiac_s2.csv   |   Q&A: logs/v2n_3b_nsiac_s2_samples.jsonl
+0
+[2026-08-17 22:55:45] DONE  v2n_3b_nsiac_s2
+[2026-08-17 22:55:45] START v2n_3b_fixedmid_s2
+14cbe96434ec701296b84ceaa745c5658b78bdf6a65ed2f5df54ca4907374632
+✅ [nsiac-v2n-3b-fixedmid-s2] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2n-3b-fixedmid-s2
+   결과:   logs/v2n_3b_fixedmid_s2.csv   |   Q&A: logs/v2n_3b_fixedmid_s2_samples.jsonl
+0
+[2026-08-18 09:51:13] DONE  v2n_3b_fixedmid_s2
+[2026-08-18 09:51:13] stage2 (3B x4) complete
+[2026-08-18 09:51:13] START v2n_7b_nsiac_s1
+d91a5b1d32428f665e7b91400d81a471df286da78ac9a7f6c4c3edbcea74a951
+✅ [nsiac-v2n-7b-nsiac-s1] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2n-7b-nsiac-s1
+   결과:   logs/v2n_7b_nsiac_s1.csv   |   Q&A: logs/v2n_7b_nsiac_s1_samples.jsonl
+0
+[2026-08-19 11:36:36] DONE  v2n_7b_nsiac_s1
+[2026-08-19 11:36:36] START v2n_7b_nsiac_s2
+2419aa34304bb144e2a51858ec28fdca6d67c268101bb41597add20bf3e9e230
+✅ [nsiac-v2n-7b-nsiac-s2] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2n-7b-nsiac-s2
+   결과:   logs/v2n_7b_nsiac_s2.csv   |   Q&A: logs/v2n_7b_nsiac_s2_samples.jsonl
+0
+[2026-08-20 15:20:16] DONE  v2n_7b_nsiac_s2
+[2026-08-20 15:20:16] v2n multi-seed chain complete

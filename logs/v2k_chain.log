@@ -1,0 +1,27 @@
+[2026-08-05 08:12:43] v2k chain start (code verifier fixed)
+[2026-08-05 08:12:43] START v2k_nsiac
+d86965a6aa93ba419c5c1e1cbeafe4f014712e30afcb1bbf6b953482ea48d468
+✅ [nsiac-v2k-nsiac] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2k-nsiac
+   결과:   logs/v2k_nsiac.csv   |   Q&A: logs/v2k_nsiac_samples.jsonl
+0
+[2026-08-05 16:25:21] DONE  v2k_nsiac
+[2026-08-05 16:25:21] START v2k_fixedmid
+d2a4aabc076081936379d7bb9526d285972e40f124faa788d4e92174279dba07
+✅ [nsiac-v2k-fixedmid] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2k-fixedmid
+   결과:   logs/v2k_fixedmid.csv   |   Q&A: logs/v2k_fixedmid_samples.jsonl
+0
+[2026-08-05 23:30:47] DONE  v2k_fixedmid
+[2026-08-05 23:30:47] START v2k_noreh
+08cabc03aa6e87e1936db3cddad76e54596b7a451868f19fe0fdfc673abcb790
+✅ [nsiac-v2k-noreh] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2k-noreh
+   결과:   logs/v2k_noreh.csv   |   Q&A: logs/v2k_noreh_samples.jsonl
+0
+[2026-08-06 07:45:11] DONE  v2k_noreh
+[2026-08-06 07:45:11] START v2k_sftstar
+7c018ed987eb77137b4348aa69ba3d6059b43088deed44ca4a53f651dee196e4
+✅ [nsiac-v2k-sftstar] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2k-sftstar
+   결과:   logs/v2k_sftstar.csv   |   Q&A: logs/v2k_sftstar_samples.jsonl

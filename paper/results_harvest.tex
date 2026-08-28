@@ -1,0 +1,21 @@
+\begin{table}[t]
+\caption{Harvest-source ablation (1.5B, seed 0; the only difference
+between the paired columns is whether the rehearsal buffer is harvested from
+inner-loop \emph{train}-split rollouts or from \emph{measured evaluation} rollouts).
+Post-shift drift is Code accuracy at cycle 30 minus cycle 21; BWT is averaged over
+cycles 21--30.}
+\label{tab:harvest}
+\centering
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+ & \multicolumn{2}{c}{Post-shift Code drift} & \multicolumn{2}{c}{BWT} \\
+\cmidrule(lr){2-3}\cmidrule(l){4-5}
+Condition & train & eval & train & eval \\
+\midrule
+MAPC (learned multi-axis) & +0.024 & +0.214 & +0.037 & +0.181 \\
+Fixed mid-point GRPO & +0.009 & +0.254 & +0.051 & +0.164 \\
+STaR/SFT self-distillation & +0.000 & +0.008 & -0.009 & +0.139 \\
+MAPC, rehearsal ablated & +0.042 & +0.004 & -0.012 & +0.006 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,74 @@
+[2026-08-07 15:20:13] v2l chain start (clean rerun: train harvest + repaired verifier + pinned deps)
+[2026-08-07 15:20:13] START sweep2_nsiac_s0
+[2026-08-07 17:51:32] DONE  sweep2_nsiac_s0
+[2026-08-07 17:51:32] START sweep2_ent_lo_s0
+[2026-08-07 20:10:27] DONE  sweep2_ent_lo_s0
+[2026-08-07 20:10:27] START sweep2_ent_hi_s0
+[2026-08-07 22:33:07] DONE  sweep2_ent_hi_s0
+[2026-08-07 22:33:07] START sweep2_kl_lo_s0
+[2026-08-08 00:52:57] DONE  sweep2_kl_lo_s0
+[2026-08-08 00:52:57] START sweep2_kl_hi_s0
+[2026-08-08 03:13:14] DONE  sweep2_kl_hi_s0
+[2026-08-08 03:13:14] START sweep2_fixed_mid_s0
+[2026-08-08 05:33:45] DONE  sweep2_fixed_mid_s0
+[2026-08-08 05:33:45] START sweep2_nsiac_s1
+[2026-08-08 07:56:45] DONE  sweep2_nsiac_s1
+[2026-08-08 07:56:45] START sweep2_ent_lo_s1
+[2026-08-08 10:10:00] DONE  sweep2_ent_lo_s1
+[2026-08-08 10:10:00] START sweep2_ent_hi_s1
+[2026-08-08 12:36:10] DONE  sweep2_ent_hi_s1
+[2026-08-08 12:36:10] START sweep2_kl_lo_s1
+[2026-08-08 14:49:55] DONE  sweep2_kl_lo_s1
+[2026-08-08 14:49:55] START sweep2_kl_hi_s1
+[2026-08-08 17:10:09] DONE  sweep2_kl_hi_s1
+[2026-08-08 17:10:09] START sweep2_fixed_mid_s1
+[2026-08-08 19:26:41] DONE  sweep2_fixed_mid_s1
+[2026-08-08 19:26:41] START sweep2_nsiac_s2
+[2026-08-08 21:51:35] DONE  sweep2_nsiac_s2
+[2026-08-08 21:51:35] START sweep2_ent_lo_s2
+[2026-08-09 00:10:30] DONE  sweep2_ent_lo_s2
+[2026-08-09 00:10:30] START sweep2_ent_hi_s2
+[2026-08-09 02:34:29] DONE  sweep2_ent_hi_s2
+[2026-08-09 02:34:29] START sweep2_kl_lo_s2
+[2026-08-09 04:38:59] DONE  sweep2_kl_lo_s2
+[2026-08-09 04:38:59] START sweep2_kl_hi_s2
+[2026-08-09 07:00:46] DONE  sweep2_kl_hi_s2
+[2026-08-09 07:00:46] START sweep2_fixed_mid_s2
+[2026-08-09 09:21:50] DONE  sweep2_fixed_mid_s2
+[2026-08-09 09:21:50] stage1 sweep complete
+[2026-08-09 09:21:50] START v2l_nozpd
+095c396728ce1a645305207017b654281dc696f31ea75cef83d04c72c5d5024b
+✅ [nsiac-v2l-nozpd] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2l-nozpd
+   결과:   logs/v2l_nozpd.csv   |   Q&A: logs/v2l_nozpd_samples.jsonl
+0
+[2026-08-09 15:54:10] DONE  v2l_nozpd
+[2026-08-09 15:54:10] START v2l_3b_nsiac
+57e862b27ef300778a9cca445e947bbca9450e1518b0fd782514f977a1796acb
+✅ [nsiac-v2l-3b-nsiac] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2l-3b-nsiac
+   결과:   logs/v2l_3b_nsiac.csv   |   Q&A: logs/v2l_3b_nsiac_samples.jsonl
+0
+[2026-08-10 04:02:16] DONE  v2l_3b_nsiac
+[2026-08-10 04:02:16] START v2l_3b_fixedmid
+21d4093589d87e89030de831c596065ce6ca3dba7d196be93e1be58e2cfc1c9f
+✅ [nsiac-v2l-3b-fixedmid] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2l-3b-fixedmid
+   결과:   logs/v2l_3b_fixedmid.csv   |   Q&A: logs/v2l_3b_fixedmid_samples.jsonl
+0
+[2026-08-10 14:30:38] DONE  v2l_3b_fixedmid
+[2026-08-10 14:30:38] START v2l_3b_sftstar
+452002430c2bb3f8535dce39d5b3aeee548d15c11616e1442d1075f1f9e21ad4
+✅ [nsiac-v2l-3b-sftstar] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2l-3b-sftstar
+   결과:   logs/v2l_3b_sftstar.csv   |   Q&A: logs/v2l_3b_sftstar_samples.jsonl
+0
+[2026-08-11 01:40:30] DONE  v2l_3b_sftstar
+[2026-08-11 01:40:30] START v2l_7b_nsiac
+91ad7a57c72a9d57396b517a0362bb8768727c1193286dfcf2d4b358e44dada1
+✅ [nsiac-v2l-7b-nsiac] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2l-7b-nsiac
+   결과:   logs/v2l_7b_nsiac.csv   |   Q&A: logs/v2l_7b_nsiac_samples.jsonl
+0
+[2026-08-12 02:18:14] DONE  v2l_7b_nsiac
+[2026-08-12 02:18:14] v2l chain complete

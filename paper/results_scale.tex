@@ -1,0 +1,20 @@
+\begin{table}[t]
+\caption{Scale replication (30 cycles, GSM8K$\to$Code$\to$MedicalMC, identical protocol and knob settings at every scale; steady state = cycles 21--30; seed 0 per cell; Table~\ref{tab:seeds} lists the multi-seed replication). Cov.\ ret.\ is measured against the \emph{same-scale} frozen-base envelope. Drift = post-shift Code movement (the quantity Table~\ref{tab:harvest} uses as its re-exposure signature; all runs here use the train-split harvest).}
+\label{tab:scale}
+\centering
+\begin{tabular}{@{}llcccccc@{}}
+\toprule
+Scale & Method & Avg.\ final & BWT & Drift & distinct-3 & Cov.\ ret. \\
+\midrule
+1.5B & MAPC & 0.443 & 0.037 & +0.024 & 0.734 & 0.939 \\
+ & Fixed mid-point & 0.422 & 0.051 & +0.009 & 0.820 & 0.938 \\
+ & STaR/SFT & 0.352 & -0.009 & +0.000 & 0.313 & 0.922 \\
+\midrule
+3B & MAPC & 0.503 & 0.043 & +0.027 & 0.600 & 0.904 \\
+ & Fixed mid-point & 0.488 & 0.021 & -0.011 & 0.818 & 0.917 \\
+ & STaR/SFT & 0.338 & -0.033 & -0.034 & 0.320 & 0.866 \\
+\midrule
+7B & MAPC & 0.533 & -0.045 & +0.023 & 0.591 & 0.887 \\
+\bottomrule
+\end{tabular}
+\end{table}

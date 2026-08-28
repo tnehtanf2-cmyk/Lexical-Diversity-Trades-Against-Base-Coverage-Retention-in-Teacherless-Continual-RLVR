@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the manuscript below."
+title: "Lexical Diversity Trades Against Base-Coverage Retention in Teacherless Continual RLVR"
+abstract: >-
+  Code, per-cycle run logs, and analysis scripts for a measurement study of
+  exploration-stability control levers in teacherless continual multi-domain
+  RLVR, including a preregistered five-level entropy dose-response, a
+  harvest-source ablation, and a three-seed operating-point comparison.
+authors:
+  - family-names: Kang
+    given-names: Deahun
+    affiliation: "Seoul School of Integrated Sciences & Technologies (aSSIST University); SDG Management School"
+    email: tnehtanf2@gmail.com
+  - family-names: Oh
+    given-names: Taeyeon
+    affiliation: "Seoul School of Integrated Sciences & Technologies (aSSIST University); Dong-A University"
+    email: tyoh@assist.ac.kr
+license: MIT
+license-url: "https://opensource.org/licenses/MIT"
+keywords:
+  - self-improvement
+  - reinforcement learning with verifiable rewards
+  - continual learning
+  - catastrophic forgetting
+  - model collapse
+  - exploration-stability control
+preferred-citation:
+  type: article
+  title: >-
+    Lexical Diversity Trades Against Base-Coverage Retention in Teacherless
+    Continual RLVR: A Preregistered Dose-Response, a Harvest-Source Ablation,
+    and Operating-Point Selection
+  authors:
+    - family-names: Kang
+      given-names: Deahun
+    - family-names: Oh
+      given-names: Taeyeon
+  journal: "Neural Networks"
+  year: 2026
+  status: submitted

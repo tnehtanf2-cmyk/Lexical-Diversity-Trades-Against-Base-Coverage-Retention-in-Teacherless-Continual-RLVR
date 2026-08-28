@@ -1,0 +1,56 @@
+{
+ "main": {
+  "nsiac": {
+   "avg_final": 0.44333333333333336,
+   "final_GSM8K": 0.7025,
+   "final_Code": 0.3463,
+   "final_MedicalMC": 0.2812,
+   "bwt": 0.037375,
+   "dist3": 0.7335200000000001,
+   "entropy": 2.38213,
+   "covret": 0.9388941623160892,
+   "rr_gsm": 1.1856540084388185,
+   "rr_code": 1.022438736344848,
+   "n_cycles": 30
+  },
+  "fixedmid": {
+   "avg_final": 0.4225,
+   "final_GSM8K": 0.5975,
+   "final_Code": 0.345,
+   "final_MedicalMC": 0.325,
+   "bwt": 0.050939,
+   "dist3": 0.82007,
+   "entropy": 2.35527,
+   "covret": 0.9382543901281443,
+   "rr_gsm": 1.1803634926906361,
+   "rr_code": 0.9928057553956835,
+   "n_cycles": 30
+  },
+  "sft_star": {
+   "avg_final": 0.3516666666666667,
+   "final_GSM8K": 0.485,
+   "final_Code": 0.32,
+   "final_MedicalMC": 0.25,
+   "bwt": -0.008751,
+   "dist3": 0.31344,
+   "entropy": 1.48187,
+   "covret": 0.9224454991298845,
+   "rr_gsm": 0.9723336006415396,
+   "rr_code": 1.020082881734141,
+   "n_cycles": 30
+  },
+  "no_reh": {
+   "avg_final": 0.41663333333333336,
+   "final_GSM8K": 0.5212,
+   "final_Code": 0.3887,
+   "final_MedicalMC": 0.34,
+   "bwt": -0.012249,
+   "dist3": 0.6826,
+   "entropy": 2.37553,
+   "covret": 0.9244439171017244,
+   "rr_gsm": 1.0195618153364632,
+   "rr_code": 1.064931506849315,
+   "n_cycles": 30
+  }
+ }
+}

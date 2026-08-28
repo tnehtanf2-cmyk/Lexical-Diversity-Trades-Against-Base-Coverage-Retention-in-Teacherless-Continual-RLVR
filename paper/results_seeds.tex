@@ -1,0 +1,21 @@
+\begin{table}[t]
+\caption{Multi-seed replication (seeds 0/1/2; seed-wise values listed, no Gaussian
+$\pm$). Seed 0 is the main-table run set at 1.5B and the scale-ladder run set at 3B/7B.
+avg is the three-domain mean accuracy at cycle 30; BWT and Cov.\ ret.\ (retained fraction of
+the frozen base's solved set, per-scale envelope) are averaged over cycles 21--30.}
+\label{tab:seeds}
+\centering\small
+\begin{tabular}{@{}llccc@{}}
+\toprule
+Scale & Condition & avg (s0/s1/s2) & BWT (s0/s1/s2) & Cov.\ ret.\ (s0/s1/s2) \\
+\midrule
+1.5B & MAPC (learned multi-axis) & 0.443 / 0.433 / 0.480 & +0.037 / +0.036 / +0.006 & 0.939 / 0.939 / 0.945 \\
+1.5B & Fixed mid-point GRPO & 0.422 / 0.420 / 0.449 & +0.051 / +0.039 / +0.045 & 0.938 / 0.941 / 0.944 \\
+1.5B & STaR/SFT self-distillation & 0.352 / 0.418 / 0.410 & -0.009 / -0.018 / -0.016 & 0.922 / 0.871 / 0.863 \\
+1.5B & MAPC, rehearsal ablated & 0.417 / 0.396 / 0.425 & -0.012 / +0.029 / +0.005 & 0.924 / 0.941 / 0.950 \\
+3B & MAPC (learned multi-axis) & 0.503 / 0.519 / 0.463 & +0.043 / +0.069 / +0.045 & 0.904 / 0.910 / 0.900 \\
+3B & Fixed mid-point GRPO & 0.488 / 0.440 / 0.513 & +0.021 / +0.030 / +0.089 & 0.917 / 0.936 / 0.955 \\
+7B & MAPC (learned multi-axis) & 0.533 / 0.537 / 0.515 & -0.045 / +0.030 / +0.042 & 0.887 / 0.938 / 0.961 \\
+\bottomrule
+\end{tabular}
+\end{table}

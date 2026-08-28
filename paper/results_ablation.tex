@@ -1,0 +1,14 @@
+\begin{table}[t]
+\caption{RQ4 component ablations (full protocol, 30 cycles, seed-paired with the MAPC run; single seed). Steady state = cycles 21--30. The single-seed noise floor on per-domain pass@1 is $0.05$, so differences below that magnitude are not resolved.}
+\label{tab:ablation}
+\centering
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Condition & BWT & distinct-3 & Cov.\ ret. & Avg.\ final \\
+\midrule
+MAPC (full) & 0.037 & 0.734 & 0.939 & 0.443 \\
+\;-- ZPD off & 0.030 & 0.677 & 0.953 & 0.457 \\
+\;-- rehearsal off & -0.012 & 0.683 & 0.924 & 0.417 \\
+\bottomrule
+\end{tabular}
+\end{table}

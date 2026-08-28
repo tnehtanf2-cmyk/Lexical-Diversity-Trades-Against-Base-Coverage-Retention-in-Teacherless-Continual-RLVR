@@ -1,0 +1,4 @@
+cycle,domain,baseline,reward,bwt,pass@1,pass@4,pass@8,coverage_solved,distinct_3,self_overlap,repetition,gen_entropy,weight_drift,param_norm,dormant_frac,effective_rank,used_mock,w_explore,w_stable,w_prec,w_diff,acc_GSM8K,acc_MedicalMC
+1,GSM8K,nsiac,0.51217,0.0,0.2437,0.5043,0.6,0.6,0.5539,0.123,0.1503,1.5713,2.3e-05,1640.69,0.0,13.390249252319336,False,0.25,0.25,0.25,0.25,0.2437,0.0
+2,GSM8K,nsiac,0.27459,0.0,0.2188,0.5479,0.65,0.65,0.6366,0.1533,0.0968,1.7566,3.2e-05,1640.69,0.0,14.0519437789917,False,0.25,0.25,0.25,0.25,0.2188,0.0
+3,MedicalMC,nsiac,0.64607,0.0125,0.4062,0.7129,0.85,0.85,0.7674,0.1006,0.0505,1.1399,4.9e-05,1640.684,0.0,12.877572059631348,False,0.1397,0.3873,0.1093,0.3637,0.2562,0.4062

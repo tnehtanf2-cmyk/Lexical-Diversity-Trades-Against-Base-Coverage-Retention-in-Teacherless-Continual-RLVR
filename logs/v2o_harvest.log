@@ -1,0 +1,30 @@
+[2026-08-20 15:21:00] v2o harvest-ablation start (eval harvest + repaired verifier)
+[2026-08-20 15:21:00] START v2o_nsiac
+3acd9c2fef63d7f307161656b015ce5a1b61ea494a8a75ef494f316099780f42
+✅ [nsiac-v2o-nsiac] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2o-nsiac
+   결과:   logs/v2o_nsiac.csv   |   Q&A: logs/v2o_nsiac_samples.jsonl
+0
+[2026-08-20 23:22:29] DONE  v2o_nsiac
+[2026-08-20 23:22:29] START v2o_fixedmid
+5a357a2b7b74cb0cac4c5bdd0e55c18bbba6c76825347189423432b84179ced3
+✅ [nsiac-v2o-fixedmid] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2o-fixedmid
+   결과:   logs/v2o_fixedmid.csv   |   Q&A: logs/v2o_fixedmid_samples.jsonl
+0
+[2026-08-21 06:06:17] DONE  v2o_fixedmid
+[2026-08-21 06:06:17] START v2o_sftstar
+1f9c6c2f3098b183c920ccac56f843af7754d9db50d0d3062e018e32ba61e076
+✅ [nsiac-v2o-sftstar] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2o-sftstar
+   결과:   logs/v2o_sftstar.csv   |   Q&A: logs/v2o_sftstar_samples.jsonl
+0
+[2026-08-21 12:45:32] DONE  v2o_sftstar
+[2026-08-21 12:45:32] START v2o_noreh
+ac323323e1a56bdb6033873820ff5336895d3247c29265fb5d1d399038474503
+✅ [nsiac-v2o-noreh] 시작. (plan/실험기록.md 에 [RUN] 기록됨)
+   로그:   docker logs -f nsiac-v2o-noreh
+   결과:   logs/v2o_noreh.csv   |   Q&A: logs/v2o_noreh_samples.jsonl
+0
+[2026-08-21 21:09:25] DONE  v2o_noreh
+[2026-08-21 21:09:25] v2o harvest-ablation complete

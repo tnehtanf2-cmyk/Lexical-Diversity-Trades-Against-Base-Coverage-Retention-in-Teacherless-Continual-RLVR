@@ -1,0 +1,99 @@
+{
+ "1.5B": {
+  "run": "v2k_nsiac",
+  "units": 80,
+  "mean_entropy_bits": 1.3271146483360874,
+  "deterministic_frac": 0.0375,
+  "deterministic_wrong": 0
+ },
+ "3B": {
+  "run": "v2l_3b_nsiac",
+  "units": 80,
+  "mean_entropy_bits": 0.7886653904492181,
+  "deterministic_frac": 0.275,
+  "deterministic_wrong": 8
+ },
+ "7B": {
+  "run": "v2l_7b_nsiac",
+  "units": 80,
+  "mean_entropy_bits": 0.35517855455904407,
+  "deterministic_frac": 0.625,
+  "deterministic_wrong": 16
+ },
+ "seed_cells": [
+  {
+   "entropy_bits": 1.3271146483360874,
+   "det_frac": 0.0375,
+   "n_units": 80,
+   "scale": "1.5B",
+   "run": "v2k_nsiac",
+   "mcqa_covret": 0.95
+  },
+  {
+   "entropy_bits": 1.2418514842262616,
+   "det_frac": 0.0375,
+   "n_units": 80,
+   "scale": "1.5B",
+   "run": "v2n_nsiac_s1",
+   "mcqa_covret": 0.9339999999999999
+  },
+  {
+   "entropy_bits": 1.1628383201164356,
+   "det_frac": 0.05,
+   "n_units": 80,
+   "scale": "1.5B",
+   "run": "v2n_nsiac_s2",
+   "mcqa_covret": 0.952
+  },
+  {
+   "entropy_bits": 0.7886653904492181,
+   "det_frac": 0.275,
+   "n_units": 80,
+   "scale": "3B",
+   "run": "v2l_3b_nsiac",
+   "mcqa_covret": 0.844
+  },
+  {
+   "entropy_bits": 0.736428554559044,
+   "det_frac": 0.35,
+   "n_units": 80,
+   "scale": "3B",
+   "run": "v2n_3b_nsiac_s1",
+   "mcqa_covret": 0.8779999999999999
+  },
+  {
+   "entropy_bits": 1.1372556248918264,
+   "det_frac": 0.1125,
+   "n_units": 80,
+   "scale": "3B",
+   "run": "v2n_3b_nsiac_s2",
+   "mcqa_covret": 0.942
+  },
+  {
+   "entropy_bits": 0.35517855455904407,
+   "det_frac": 0.625,
+   "n_units": 80,
+   "scale": "7B",
+   "run": "v2l_7b_nsiac",
+   "mcqa_covret": 0.742
+  },
+  {
+   "entropy_bits": 0.7401973435606964,
+   "det_frac": 0.3375,
+   "n_units": 80,
+   "scale": "7B",
+   "run": "v2n_7b_nsiac_s1",
+   "mcqa_covret": 0.8779999999999999
+  },
+  {
+   "entropy_bits": 1.176870273227914,
+   "det_frac": 0.025,
+   "n_units": 80,
+   "scale": "7B",
+   "run": "v2n_7b_nsiac_s2",
+   "mcqa_covret": 0.962
+  }
+ ],
+ "coupling_spearman_tiecorrected": -0.8487394957983193,
+ "coupling_exact_perm_p": 0.005693342151675485
+}

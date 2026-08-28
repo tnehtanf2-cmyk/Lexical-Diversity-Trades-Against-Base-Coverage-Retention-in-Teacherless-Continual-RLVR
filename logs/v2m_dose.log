@@ -1,0 +1,14 @@
+[2026-08-12 08:50:23] v2m dose-response start (entropy_coef 0.02, 0.08)
+[2026-08-12 08:50:23] START sweep2_ent_002_s0 (entropy_coef=0.02)
+[2026-08-12 11:20:52] DONE  sweep2_ent_002_s0
+[2026-08-12 11:20:52] START sweep2_ent_002_s1 (entropy_coef=0.02)
+[2026-08-12 13:42:03] DONE  sweep2_ent_002_s1
+[2026-08-12 13:42:03] START sweep2_ent_002_s2 (entropy_coef=0.02)
+[2026-08-12 16:11:13] DONE  sweep2_ent_002_s2
+[2026-08-12 16:11:13] START sweep2_ent_008_s0 (entropy_coef=0.08)
+[2026-08-12 18:41:48] DONE  sweep2_ent_008_s0
+[2026-08-12 18:41:48] START sweep2_ent_008_s1 (entropy_coef=0.08)
+[2026-08-12 21:12:53] DONE  sweep2_ent_008_s1
+[2026-08-12 21:12:53] START sweep2_ent_008_s2 (entropy_coef=0.08)
+[2026-08-12 23:45:28] DONE  sweep2_ent_008_s2
+[2026-08-12 23:45:28] v2m dose-response complete

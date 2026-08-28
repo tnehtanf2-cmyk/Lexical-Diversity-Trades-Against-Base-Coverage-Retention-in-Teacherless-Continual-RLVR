@@ -1,0 +1,16 @@
+# Requirements for LLM Full Fine-Tuning
+transformers>=5.2.0
+datasets>=2.20.0
+accelerate>=1.0.0
+deepspeed>=0.14.0
+sentencepiece==0.2.0
+# For logging and experiment tracking
+wandb==0.18.0
+matplotlib
+seaborn
+# For data handling
+pandas>=2.2.2
+numpy>=1.26.4
+PyYAML==6.0.1
+# For model checkpointing
+safetensors>=0.4.3
