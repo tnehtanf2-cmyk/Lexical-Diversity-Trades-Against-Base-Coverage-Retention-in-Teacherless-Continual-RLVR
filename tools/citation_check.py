@@ -134,6 +134,23 @@ class Suggester:
         return [(round(s, 2), f, len(t)) for s, f in r[:k]]
 
 
+def title_coverage(title, page_text):
+    """제목 토큰이 원문 1쪽에 몇 % 나타나는가.
+
+    PDF 는 제목을 자간 넣어 렌더링하는 일이 잦아(`LLMZ ERO`, `RL F ORGETS`,
+    `E FFECT OF`) 토큰 대조만 하면 멀쩡한 인용이 불일치로 잡힌다. 공백을 모두
+    지운 문자열에 대한 부분문자열 검사를 함께 본다.
+    """
+    t = norm_tokens(title)
+    if not t:
+        return None, set()
+    toks = norm_tokens(page_text)
+    flat = re.sub(r"[^a-z]", "", unicodedata.normalize("NFKD", page_text).lower())
+    miss = {w for w in t if w not in toks and w not in flat}
+    return 1 - len(miss) / len(t), miss
+
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--tex-dir", default=os.path.join(ROOT, "paper"))
@@ -168,9 +185,10 @@ def main():
     unlinked = [k for k in live if entries[k]["n"] is None]
     pdfnums = {}
     for f in os.listdir(a.pdf_dir):
+        # 같은 [N] 로 .md 노트가 함께 있으므로 반드시 PDF 만 잡는다
         m = re.match(r"\[(\d+)\]", f)
-        if m:
-            pdfnums.setdefault(int(m.group(1)), f)
+        if m and f.lower().endswith(".pdf"):
+            pdfnums[int(m.group(1))] = f
     broken = [k for k in linked if entries[k]["n"] not in pdfnums]
 
     print("\n[층2] 인용 키 ↔ 보유 원문   (`% [N]` 명시 링크가 정본)")
@@ -190,6 +208,32 @@ def main():
         for _, k, s1, f1, ntok in sorted(rows):
             flag = "강" if s1 >= 0.99 and ntok >= 6 else ("약" if s1 >= 0.7 else " ")
             print(f"      {flag} {s1:>4}  {k:26s} {entries[k]['title'][:46]:46s} → {f1[:46]}")
+
+    print("\n[층4] bib 제목 ↔ 원문 1쪽   (오탈자·구제목 인용 검출)")
+    noText, low, okn = [], [], 0
+    for k in sorted(live):
+        n = entries[k]["n"]
+        f = pdfnums.get(n) if n is not None else None
+        if not f:
+            continue
+        page = fulltext.get(f, "")
+        if len(page.strip()) < 200:
+            noText.append((k, n, f))
+            continue
+        cov, miss = title_coverage(entries[k]["title"], page)
+        if cov is None:
+            continue
+        if cov >= 0.75:
+            okn += 1
+        else:
+            low.append((cov, k, n, entries[k]["title"], sorted(miss)))
+    print(f"  ⑦ 제목 일치            : {okn}건")
+    print(f"  ⑧ 본문 텍스트 없음(스캔본): {len(noText)}건" +
+          "".join(f"\n      - {k} → [{n}]  자동 대조 불가, 눈으로 확인" for k, n, f in noText))
+    print(f"  ⑨ 제목 불일치 의심      : {len(low)}건")
+    for cov, k, n, t, miss in sorted(low):
+        print(f"      - {cov:.2f} {k} → [{n}]  {t[:56]}")
+        print(f"        1쪽에 없는 단어: {', '.join(miss[:8])}")
 
     notin = sorted(set(live) - index_keys)
     print(f"\n[층3] INDEX.md 색인 최신성")
