@@ -55,8 +55,15 @@ supported for **decline magnitude**, and the paper states it that way.
 A separate observation from the same runs: 3B being below 1.5B holds (0.438 < 0.500)
 but 7B is highest (0.604), so the pattern is not monotone — a U shape with 3B alone
 depressed. The data/parameter ratio does not explain this on its own, and 3B seed
-noise (measured at 0.128) remains the more likely account. The scale section says the
-single 3B low point cannot be distinguished from seed noise.
+noise (measured at 0.128) remains the more likely account.
+
+**Correction (2026-09-10).** This paragraph describes the superseded `v2i_*` runs and no longer
+matches the manuscript. In the runs reported there, average final accuracy is monotone in scale
+(0.443 < 0.503 < 0.533 at seed 0; 0.452 < 0.495 < 0.528 in controller seed means), so the U shape
+and the 3B low point belong to the earlier revision. The premise that generated this
+registration — 3B underperforming 1.5B — therefore does not hold in the reported runs. The
+registration is kept as a record of a prediction fixed in advance about peak shape, not as a
+statement about the scale ordering.
 
 ---
 
