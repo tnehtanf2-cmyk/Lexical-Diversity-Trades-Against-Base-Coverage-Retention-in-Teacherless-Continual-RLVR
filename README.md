@@ -5,7 +5,7 @@ Code, run logs, and analysis scripts for the manuscript:
 > Deahun Kang and Taeyeon Oh. *Lexical Diversity Trades Against Base-Coverage
 > Retention in Teacherless Continual RLVR: A Preregistered Dose–Response, a
 > Harvest-Source Ablation, and Operating-Point Selection.* Submitted to
-> **Neural Networks** (Learning Systems), 2026.
+> **Neurocomputing**, 2026.
 
 This repository is the deposit referenced in the manuscript's *Data availability*
 statement. Every table in the paper is regenerated from the logs in `logs/` by the
