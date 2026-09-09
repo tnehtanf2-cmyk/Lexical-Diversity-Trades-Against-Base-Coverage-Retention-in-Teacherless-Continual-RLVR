@@ -21,7 +21,7 @@ outcome including the predictions that failed. Two verdicts were later corrected
 recomputation disagreed with the first tally; those corrections are kept in place
 rather than folded away, and are marked as corrections.
 
-Six of the fourteen registered predictions did not hold. They are listed in
+Four of the fourteen registered predictions did not hold. They are listed in
 `prereg-ledger.md` alongside the ones that did, and each is reported in the
 manuscript at the location the ledger names.
 

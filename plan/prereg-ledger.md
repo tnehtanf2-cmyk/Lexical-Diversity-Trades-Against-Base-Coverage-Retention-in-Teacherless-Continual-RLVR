@@ -12,7 +12,11 @@ reporting is what registration exists to prevent.
 | Harvest source (`prereg-02`) | H1 drift reappears in all three rehearsal arms, H2 no-rehearsal arm shows none, H3 BWT rises | H1 held for the two GRPO arms and **failed for STaR/SFT**, H2 held, H3 held | RQ2 (Sec. 5.4), with the STaR/SFT failure printed in Table 6 and discussed; RQ2 also records that this registration was confirmatory rather than blind |
 | Scale overfitting (`prereg-04`) | Peak height, decline magnitude, earlier peak at 7B | Peak height held, earlier peak held, **decline magnitude failed** | Limitations (vii), which states the scale claim is limited to earlier peaking |
 
-Fourteen predictions in total, of which **six did not hold**.
+Counting each conjunct separately (three for the dose-response, five for the multi-seed
+registration, three for the harvest source, three for the scale prediction), fourteen predictions
+were registered and **four did not hold**: the 7B backward-transfer replication, the
+lowest-average-accuracy conjunct of the STaR/SFT prediction, the drift conjunct for the STaR/SFT
+arm, and the decline-magnitude conjunct at 7B.
 
 ## Two verdict corrections
 

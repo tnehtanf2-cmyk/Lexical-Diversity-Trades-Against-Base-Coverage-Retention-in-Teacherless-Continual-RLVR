@@ -37,9 +37,17 @@ is withdrawn** and the knob-calibration hypothesis returns.
 
 - Conjunct 1, peak height: 7B 0.755 > 3B 0.679 — **holds**.
 - Conjunct 3, peak timing: cycle 4 < cycle 7 — **holds**.
-- Conjunct 2, decline magnitude: **fails**. Peak-to-c30 within the GSM8K block is
-  -0.0225 at 7B versus -0.0249 at 3B, effectively the same. The block-internal dip was
-  large (-0.116) but recovered.
+- Conjunct 2, decline magnitude: **fails**.
+
+**Correction (2026-09-10).** The verdict stands, but the quantity first used to reach it was not
+the registered one, and it was read off runs that a later pipeline revision superseded. The
+registered quantity is the decline from the within-block peak to the end of the first block
+(the 3B threshold of -0.089 is peak@c7 to c10). On that quantity the 7B run declines by only
+**-0.019** -- the block-internal dip to -0.116 at cycle 7 recovered to 0.736 by cycle 10 -- so
+the conjunct fails clearly. Across three seeds the peak-to-block-end means are -0.066 at 3B and
+-0.065 at 7B, so it fails there too. The figures first recorded here, -0.0225 at 7B versus
+-0.0249 at 3B, are peak-to-cycle-30 values from the superseded `v2i_*` runs; the first block is
+bit-identical between revisions, so the conclusion is unaffected.
 
 So "scale accelerates overfitting" is supported for **earlier peaking** and not
 supported for **decline magnitude**, and the paper states it that way.
