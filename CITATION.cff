@@ -18,6 +18,9 @@ authors:
 license: MIT
 license-url: "https://opensource.org/licenses/MIT"
 repository-code: "https://github.com/tnehtanf2-cmyk/Lexical-Diversity-Trades-Against-Base-Coverage-Retention-in-Teacherless-Continual-RLVR"
+doi: "10.5281/zenodo.22672684"
+version: v1.0.0
+date-released: 2026-09-09
 keywords:
   - self-improvement
   - reinforcement learning with verifiable rewards

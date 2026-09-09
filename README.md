@@ -8,7 +8,8 @@ Code, run logs, and analysis scripts for the manuscript:
 > **Neurocomputing**, 2026.
 
 This repository is the deposit referenced in the manuscript's *Data availability*
-statement. Every table in the paper is regenerated from the logs in `logs/` by the
+statement. Archived at Zenodo: [10.5281/zenodo.22672684](https://doi.org/10.5281/zenodo.22672684)
+(all versions; the manuscript cites the v1.0.0 snapshot, 10.5281/zenodo.22672685). Every table in the paper is regenerated from the logs in `logs/` by the
 scripts in `paper/` — see [Reproducing the tables](#reproducing-the-tables).
 
 ## What is here
