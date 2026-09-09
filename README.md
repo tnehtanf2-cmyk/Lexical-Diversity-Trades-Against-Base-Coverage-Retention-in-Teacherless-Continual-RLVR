@@ -21,6 +21,7 @@ scripts in `paper/` — see [Reproducing the tables](#reproducing-the-tables).
 | `paper/` | Analysis scripts that emit the manuscript's LaTeX tables and summary JSON |
 | `logs/` | Per-cycle run logs: 104 CSV, 203 JSONL, 57 plain logs |
 | `tools/` | Auxiliary measurement utilities (coverage/entropy, bf16 decay check) |
+| `plan/` | The preregistration records the manuscript cites: hypotheses, decision thresholds, and verdicts including the six predictions that failed |
 
 ### Log file conventions
 
