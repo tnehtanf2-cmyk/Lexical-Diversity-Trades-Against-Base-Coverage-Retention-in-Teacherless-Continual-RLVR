@@ -40,6 +40,12 @@ Run-name prefixes map to the manuscript's experiment blocks: `sweep_*` and
 `v2n_*` (multi-seed), `v2o_*` (harvest-source ablation), `full_base_*` (frozen-base
 reference environment).
 
+One edit was made to the logged completions before release: six occurrences of five
+email addresses that the model emitted inside generated text were replaced with
+`redacted@example.com`. The addresses appear in no prompt or gold answer, and no
+metric is computed from the `completions` field, so every table and figure in the
+manuscript regenerates unchanged.
+
 ## Reproducing the tables
 
 Requires Python 3.12 with `pandas`, `numpy`, `scipy` (see `requirements.txt`).
