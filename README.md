@@ -94,6 +94,11 @@ the manuscript sources themselves are not included.
 
 - **Code** (`nsiac2/`, `main_nsiac_v2.py`, `scripts/`, `paper/`, `tools/`) — MIT, see [`LICENSE`](LICENSE)
 - **Logs and derived data** (`logs/`, `paper/results_*.json`, `paper/results_*.tex`) — CC BY 4.0, see [`LICENSE-data`](LICENSE-data)
+- **Preregistration records** (`plan/`) — CC BY 4.0, as above
+
+The repository was initialised in August 2026 with an Apache-2.0 file before any content
+existed. That file is superseded by the two licences above, which are the ones the
+deposit is released under and the ones `CITATION.cff` records.
 
 ## Citation
 
