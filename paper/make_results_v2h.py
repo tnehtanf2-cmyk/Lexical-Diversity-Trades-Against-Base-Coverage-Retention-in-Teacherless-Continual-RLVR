@@ -6,6 +6,13 @@ Inputs: logs/v2_full_{nsiac,fixedmid,sft_star}_v2h*.csv + *_meta.jsonl,
 Outputs: paper/results_main.tex, paper/results_sweep.tex, paper/figs/*.pdf,
          paper/results_summary.json (numbers quoted in prose come from here).
 """
+import os as _os, sys as _sys
+if _os.environ.get("MAPC_ALLOW_V2H") != "1":
+    _sys.exit("make_results_v2h.py aggregates a SUPERSEDED run set (sweep_* / v2_full_*_v2h), not the\n"
+              "sweep2_* / v2k_* runs the manuscript reports. Running it overwrites results_main.tex and\n"
+              "results_sweep.tex with numbers that do not match the paper. Its helpers are read as text by\n"
+              "make_results_v2k/v2l/dose; the manuscript's tables and Figure 2 come from those scripts and\n"
+              "make_pareto_sweep.py. Set MAPC_ALLOW_V2H=1 to run it anyway.")
 import os, json, itertools
 import statistics as st
 import pandas as pd
