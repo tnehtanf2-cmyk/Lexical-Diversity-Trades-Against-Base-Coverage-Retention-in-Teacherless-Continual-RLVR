@@ -105,7 +105,7 @@ the manuscript sources themselves are not included.
 
 The repository was initialised in August 2026 with an Apache-2.0 file before any content
 existed. That file is superseded by the two licences above, which are the ones the
-deposit is released under and the ones `CITATION.cff` records.
+deposit is released under and the ones `LICENSE`, `LICENSE-data` and `CITATION.cff` record.
 
 ## Citation
 
