@@ -59,7 +59,13 @@ python3 paper/make_results_v2l.py        # -> paper/results_sweep.tex, results_s
 python3 paper/make_results_v2o.py        # -> paper/results_harvest.tex, results_seeds.tex
 python3 paper/make_results_dose.py       # -> paper/results_dose.tex, paper/figs/dose_response.pdf
 python3 paper/make_crystallization.py    # -> paper/results_crystallization.json
+python3 paper/make_pareto_sweep.py       # -> paper/figs/pareto_sweep.pdf (Fig. 2; reads results_summary_v2l.json)
 ```
+
+Figures: Fig. 1 is written by `make_results_dose.py`, Fig. 2 by `make_pareto_sweep.py`
+(after `make_results_v2l.py`), and Figs. 3-5 by `make_results_v2k.py`. `make_results_v2h.py`
+aggregates a superseded run set and exits unless `MAPC_ALLOW_V2H=1`; it is kept only
+because the other scripts read its helper functions as text.
 
 Each script rewrites its `.tex` file in place. The versions committed here are the
 ones typeset in the manuscript; re-running the scripts on a clean checkout

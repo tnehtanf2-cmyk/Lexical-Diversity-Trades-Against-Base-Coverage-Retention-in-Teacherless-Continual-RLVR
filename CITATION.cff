@@ -15,7 +15,9 @@ authors:
     given-names: Taeyeon
     affiliation: "Seoul School of Integrated Sciences & Technologies (aSSIST University); Dong-A University"
     email: tyoh@assist.ac.kr
-license: MIT
+license:
+  - MIT
+  - CC-BY-4.0
 license-url: "https://opensource.org/licenses/MIT"
 repository-code: "https://github.com/tnehtanf2-cmyk/Lexical-Diversity-Trades-Against-Base-Coverage-Retention-in-Teacherless-Continual-RLVR"
 doi: "10.5281/zenodo.22672684"
